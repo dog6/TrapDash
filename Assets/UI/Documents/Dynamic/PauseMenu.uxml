@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Label.uss?fileID=7433441132597879392&amp;guid=4e80e1321a619624b8296d52af7ee61d&amp;type=3#Label" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1; justify-content: center; align-items: center; align-self: auto;">
+        <ui:VisualElement name="PauseMenuContainer" style="flex-grow: 1; width: 20%; height: 0; max-height: 55%; background-color: rgba(0, 0, 0, 0.53); align-items: center;">
+            <ui:Label tabindex="-1" text="GAME PAUSED" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PauseMenuTitle" style="-unity-font: url(&quot;project://database/Assets/UI/Fonts/TTF/smallest_pixel-7.ttf?fileID=12800000&amp;guid=8b13ef78e9bf15c45835de6de2962362&amp;type=3#smallest_pixel-7&quot;); -unity-font-definition: url(&quot;project://database/Assets/UI/Fonts/TTF/smallest_pixel-7%20SDF.asset?fileID=11400000&amp;guid=ca64e3e3dcc45d044ba2848066c730b0&amp;type=2#smallest_pixel-7 SDF&quot;); color: rgb(255, 255, 255); font-size: 56px; -unity-text-align: upper-center; padding-bottom: 32px; padding-top: 20px;" />
+            <ui:Button text="Resume" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResumeButton" class="button" style="min-height: 10%;" />
+            <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingsButton" class="button" style="min-height: 10%;" />
+            <ui:Button text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MenuButton" class="button" style="min-height: 10%;" />
+            <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuitButton" class="button" style="min-height: 10%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

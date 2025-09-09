@@ -1,0 +1,128 @@
+.label {
+    font-size: 36px;
+    -unity-font: url("project://database/Assets/UI/Fonts/TTF/smallest_pixel-7.ttf?fileID=12800000&guid=8b13ef78e9bf15c45835de6de2962362&type=3#smallest_pixel-7");
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/TTF/smallest_pixel-7%20SDF.asset?fileID=11400000&guid=ca64e3e3dcc45d044ba2848066c730b0&type=2#smallest_pixel-7 SDF");
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    background-color: rgb(63, 63, 63);
+    -unity-font: url("project://database/Assets/UI/Fonts/TTF/smallest_pixel-7.ttf?fileID=12800000&guid=8b13ef78e9bf15c45835de6de2962362&type=3#smallest_pixel-7");
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/TTF/smallest_pixel-7%20SDF.asset?fileID=11400000&guid=ca64e3e3dcc45d044ba2848066c730b0&type=2#smallest_pixel-7 SDF");
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    min-width: 35%;
+    max-width: 70%;
+    width: 35%;
+    max-height: 30%;
+    min-height: 79%;
+    cursor: initial;
+    align-items: auto;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.button:hover {
+    scale: 1.05 1.05;
+    cursor: url("project://database/Assets/Sprites/Game/cursor_64x64.png?fileID=2800000&guid=2983c67b86735fb42a0c55c01f10ea68&type=3#cursor_64x64");
+}
+
+.unity-base-popup-field {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.unity-popup-field {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+}
+
+.unity-base-field {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.unity-base-popup-field__input {
+    background-color: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    min-width: 280px;
+    max-width: none;
+}
+
+.button:focus {
+}
+
+.unity-button:focus {
+    border-left-color: rgb(88, 255, 178);
+    border-right-color: rgb(88, 255, 178);
+    border-top-color: rgb(88, 255, 178);
+    border-bottom-color: rgb(88, 255, 178);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+}
+
+.unity-button {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    cursor: initial;
+}
+
+.unity-dropdown:focus {
+}
+
+.unity-text-element:focus {
+    color: rgb(255, 255, 255);
+}
+
+.unity-popup-field:focus {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+}
+
+.unity-base-popup-field__input:focus {
+    border-left-color: rgb(88, 255, 178);
+    border-right-color: rgb(88, 255, 178);
+    border-top-color: rgb(88, 255, 178);
+    border-bottom-color: rgb(88, 255, 178);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+
+.unity-base-field:focus {
+    color: rgb(255, 255, 255);
+}
+
+.unity-base-field__label {
+    color: rgb(255, 255, 255);
+}
+
+.unity-base-field__label:focus {
+    color: rgb(255, 255, 255);
+    -unity-font: url("project://database/Assets/UI/Fonts/TTF/smallest_pixel-7.ttf?fileID=12800000&guid=8b13ef78e9bf15c45835de6de2962362&type=3#smallest_pixel-7");
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/TTF/smallest_pixel-7%20SDF.asset?fileID=11400000&guid=ca64e3e3dcc45d044ba2848066c730b0&type=2#smallest_pixel-7 SDF");
+}
+
+.screen {
+    cursor: url("project://database/Assets/Sprites/Game/cursor_64x64.png?fileID=2800000&guid=2983c67b86735fb42a0c55c01f10ea68&type=3#cursor_64x64");
+}

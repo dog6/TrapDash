@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Spring
+  - Fence
+  - Ground
+  - Ice
+  - VirtualCamera
+  - HUD
+  - Background
+  - Spawnpoint
+  - PAK
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - NoJump
+  - Water
+  - UI
+  - Ground
+  - Coin
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3549978473
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
